@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MaterialActivity"
+            android:label="材料列表" />
+        <activity android:name=".PurchaseActivity"></activity>
     </application>
 
 </manifest>

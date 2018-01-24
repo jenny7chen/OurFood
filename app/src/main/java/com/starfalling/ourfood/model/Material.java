@@ -2,10 +2,13 @@ package com.starfalling.ourfood.model;
 
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
 public class Material extends RealmObject{
     private long price;
     private String name;
+
+    @PrimaryKey
     private String id;
     private String priceUnit;
 
